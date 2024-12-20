@@ -1,0 +1,166 @@
+body
+{
+    overflow-x: hidden;
+    background-color: black;
+    
+}
+#navlogo{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white
+      
+   
+}
+#dropdown{
+    background-color: rgb(224, 79, 79);
+    
+}
+#images{
+    float: right;
+
+     width: 400px;
+    height:500px ;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+}
+#image{
+    width: 400px;
+    border-radius: 20px;
+    height:500px ;
+    overflow: hidden;
+}
+   
+
+#box img:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+#text{
+    padding-top: 90px;
+    position: absolute;
+    width: 60%;
+    color: white;
+    margin-top: 50px;
+    
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+    
+    
+    
+}
+#paragraph{
+    margin-top: 300px;
+}
+#HEADING{
+    margin-top: 400px;
+}
+#nan{
+    margin-top: 250px;
+    text-align: center;
+    
+}
+#gallery img{
+    width:250px ;
+    height: 250px;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+#gallery img:hover{
+    filter: grayscale(0%);
+
+
+}
+
+
+h2:hover{
+    color: rgba(235, 49, 49, 0.856);
+    transition: .3s;
+    animation: ease-in-out;
+}
+*{
+    box-sizing: border-box;
+}
+#heading{
+    
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+#navbar{
+    background-color: black;
+}
+#navitem{
+    font-size: 1.3rem;
+    transition: 0.3s ease;
+    
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+    
+
+}
+#navitem:hover,
+#navitem.active{
+    color: red;
+    border-bottom: 2px solid red;
+}
+#navlogo{
+    color: red;
+    transition: 0.5s ease;
+}
+#navlogo:hover{
+    transform:scale(1,1);
+}
+#abstract img{
+    width:250px ;
+    height: 250px;
+}
+
+#backgroundimage{
+    background-image: url('about\ imges/about img landscape.png');
+
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+  background-image: url('about\ imges/about img.jpg') ;
+    /* background-repeat: no-repeat; */
+height: 500px;
+background-size: cover;
+width: 250;
+
+}
+.naveed{
+    background-color: black;
+    height: 150px;
+
+}
+.memon{
+    height: 250px;
+}
+.khan{
+    border: 2px rgb(255, 255, 255) solid;
+}
+/* media query */
+
+@media (max-width: 575px) { 
+
+    .sm-sc{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .N121{
+        width: 100%;
+    }
+ }
